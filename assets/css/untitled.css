@@ -1,0 +1,53 @@
+.portfolio .portfolio-item .portfolio-item-caption {
+  transition: all ease .5s;
+  opacity: 0;
+  background-color: rgba(0,0,0,0);
+}
+
+.bg-primary {
+  background-color: #cb00b6 !important;
+}
+
+hr.star-light:after {
+  color: #cb00b6;
+  background-color: #ffffff;
+}
+
+hr.star-light {
+  border-color: #ffffff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: rgb(129,202,255);
+}
+
+.bg-secondary {
+  background-color: #323232 !important;
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  text-shadow: rgba(68,68,68,0.1) 1px 1px 0, rgba(68,68,68,1.1) 1px 1px 0, rgba(68,68,68,0.3) 2px 1px 0, rgba(68,68,68,0.1) 2px 1px 0, rgba(68,68,68,0.1) 3px 1px 0;
+}
+
+hr.star-light:after, hr.star-dark:after {
+  position: relative;
+  top: -0.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: "";
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
